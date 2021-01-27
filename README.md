@@ -14,7 +14,7 @@ git push –u origin master
 
 git push origin –-delete <branchname> 
 
-git branch -D vn50wvz_dev ( deletes local branch) 
+git branch -D <branchname> ( deletes local branch) 
 
 # push an empty commit to your branch to re-trigger status checks: 
 git commit -m "retrigger checks" --allow-empty 
