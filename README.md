@@ -10,7 +10,7 @@ git stash list
 
 git pull origin <master> 
 
-git push –u origin master 
+git push –u origin <branchname> to seup the upstraem 
 
 git push origin –-delete <branchname> 
 
