@@ -20,3 +20,8 @@ git branch -D <branchname> ( deletes local branch)
 git commit -m "retrigger checks" --allow-empty 
 # and then 
 git push <branchname> 
+  
+# moving changed files to another branch
+git stash
+git checkout correct-branch
+git stash pop
