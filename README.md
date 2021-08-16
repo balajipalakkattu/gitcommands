@@ -25,3 +25,9 @@ git push <branchname>
 git stash
 git checkout correct-branch
 git stash pop
+
+#  Changing a commit message 
+  git commit –amend 
+  Then Changing the message of the most recently pushed commit
+  git push –force 
+  Note: https://docs.github.com/en/github/committing-changes-to-your-project/changing-a-commit-message 
