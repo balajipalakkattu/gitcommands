@@ -13,7 +13,9 @@ git pull origin <master>
 git push –u origin <branchname> to seup the upstraem 
 
 #to delete remote
+
 git push origin –-delete <branchname> 
+
 git push origin :<branchname>
 
 git branch -D <branchname> ( deletes local branch) 
