@@ -35,3 +35,11 @@ git stash pop
   Then Changing the message of the most recently pushed commit
   git push –force 
   Note: https://docs.github.com/en/github/committing-changes-to-your-project/changing-a-commit-message 
+# Renaming a gitlab branch and delete the original one
+  git checkout branch
+  
+  git checkout -b branch_old
+  
+  git push --delete origin branch
+  
+  git push --set-upstream origin branch_old
