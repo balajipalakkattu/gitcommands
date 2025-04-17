@@ -43,3 +43,5 @@ git stash pop
   git push --delete origin branch
   
   git push --set-upstream origin branch_old
+
+  Note: https://forum.gitlab.com/t/how-to-rename-a-branch-in-gitlab/30746
